@@ -116,8 +116,8 @@ Q3=np.percentile(age,75)
 ```
 ```
 ivr=Q3-Q1
-lower_bound=Q1-1.5*IQR
-upper_bound=Q3+1.5*IQR
+lower_bound=Q1-1.5*ivr
+upper_bound=Q3+1.5*ivr
 outliers=af[(af<lower_bound) | (af>upper_bound) ]
 ```
 ```
