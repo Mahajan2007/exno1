@@ -180,4 +180,4 @@ sns.boxplot(data=cleaned_df)
 
 
 # Result
-Thus the data cleaning process on the given dataset is executed successfully.
+In this experiment, data cleaning techniques were applied to improve the quality of the dataset. The dataset was first read and explored to understand its structure. Missing values were removed, and the cleaned data was saved. Outliers were then detected and removed using both the Interquartile Range (IQR) method and the Z-score method. This process ensured that the dataset became more accurate, consistent, and reliable for further analysis.
